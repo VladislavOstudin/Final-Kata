@@ -5,56 +5,56 @@
   transition: transform 600ms;
 
   &--burger {
-    background: url(/src/img/ic/burger.svg) no-repeat 50% 50%;
+    background: url(../img/ic/burger.svg) no-repeat 50% 50%;
   }
 
   &--close-burger {
-    background: url(/src/img/ic/close-burger.svg) no-repeat 50% 50%;
+    background: url(../img/ic/close-burger.svg) no-repeat 50% 50%;
   }
   &--close {
-    background: url(/src/img/ic/close-burger.svg) no-repeat 50% 50%;
+    background: url(../img/ic/close-burger.svg) no-repeat 50% 50%;
     position: relative;
     left: 20px;
     top: 25px;
   }
 
   &--call {
-    background: url(/src/img/ic/call.svg) no-repeat 50% 50%;
+    background: url(../img/ic/call.svg) no-repeat 50% 50%;
     display: none;
   }
 
   &--call-menu {
-    background: url(/src/img/ic/call.svg) no-repeat 50% 50%;
+    background: url(../img/ic/call.svg) no-repeat 50% 50%;
   }
 
   &--chat {
-    background: url(/src/img/ic/chat.svg) no-repeat 50% 50%;
+    background: url(../img/ic/chat.svg) no-repeat 50% 50%;
     display: none;
   }
 
   &--chat-menu {
-    background: url(/src/img/ic/chat.svg) no-repeat 50% 50%;
+    background: url(../img/ic/chat.svg) no-repeat 50% 50%;
   }
 
   &--profile {
-    background: url(/src/img/ic/profile.svg) no-repeat 50% 50%;
+    background: url(../img/ic/profile.svg) no-repeat 50% 50%;
     display: none;
   }
 
   &--profile-menu {
-    background: url(/src/img/ic/profile.svg) no-repeat 50% 50%;
+    background: url(../img/ic/profile.svg) no-repeat 50% 50%;
   }
 
   &--repair {
-    background: url(/src/img/ic/repair.svg) no-repeat 50% 50%;
+    background: url(../img/ic/repair.svg) no-repeat 50% 50%;
   }
 
   &--checkstatus {
-    background: url(/src/img/ic/checkstatus.svg) no-repeat 50% 50%;
+    background: url(../img/ic/checkstatus.svg) no-repeat 50% 50%;
   }
 
   &--search-menu {
-    background: url(/src/img/ic/search.svg) no-repeat 50% 50%;
+    background: url(../img/ic/search.svg) no-repeat 50% 50%;
   }
 
   @media (min-width: 768px) and (max-width: 1365.98px) {
@@ -82,11 +82,11 @@
       opacity: 0.5;
     }
     &--repair {
-      background: url(/src/img/ic/repair.svg) no-repeat 50% 50%;
+      background: url(../img/ic/repair.svg) no-repeat 50% 50%;
     }
 
     &--checkstatus {
-      background: url(/src/img/ic/checkstatus.svg) no-repeat 50% 50%;
+      background: url(../img/ic/checkstatus.svg) no-repeat 50% 50%;
     }
 
     &--close-burger {
