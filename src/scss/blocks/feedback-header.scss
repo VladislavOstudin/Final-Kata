@@ -1,0 +1,28 @@
+.feedback-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  max-height: 90px;
+  padding-top: 80px;
+  padding-bottom: 25px;
+
+  &__title {
+    font-size: 1.6em;
+    font-weight: 700;
+  }
+
+  &__design-element {
+    background: url(/src/img/decor-elements/highlight.svg) no-repeat 0 50%;
+    width: 4px;
+    height: 40px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1365.98px) {
+    padding-top: 25px;
+  }
+
+  @media (min-width: 1366px) {
+    padding-top: 25px;
+  }
+}

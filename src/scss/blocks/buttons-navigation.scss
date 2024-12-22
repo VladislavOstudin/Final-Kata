@@ -1,0 +1,45 @@
+.buttons-navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+  gap: 5px;
+  padding-bottom: 20px;
+  margin-bottom: -20px;
+
+  &__button {
+    white-space: nowrap;
+    padding: 10px;
+    border-radius: 6px;
+    color: $gray-text;
+    font-size: 1.03em;
+    font-weight: 500;
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    & a {
+      padding: 10px 5px;
+    }
+
+    &--active {
+      border: 2px $active solid;
+      margin-left: 20px;
+      background-color: $white;
+      &:hover {
+        opacity: 1;
+      }
+
+      @media (min-width: 1366px) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  @media (min-width: 1366px) {
+    flex-wrap: wrap;
+    margin-left: 20px;
+    overflow-x: hidden;
+  }
+}

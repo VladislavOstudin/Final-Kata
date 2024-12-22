@@ -1,0 +1,61 @@
+.footer {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  color: $gray-text;
+  padding: 20px;
+  font-size: 0.9em;
+  border-top: 2px solid $separator;
+
+  &__part1 {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    @media (min-width: 768px) and (max-width: 1365.98px) {
+      align-self: flex-start;
+      text-align: left;
+    }
+
+    @media (min-width: 1366px) {
+      align-self: flex-start;
+      text-align: left;
+    }
+  }
+  &__part2 {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    @media (min-width: 768px) and (max-width: 1365.98px) {
+      align-self: flex-start;
+    }
+
+    @media (min-width: 1366px) {
+      align-self: flex-start;
+    }
+  }
+  &__part3 {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    @media (min-width: 768px) and (max-width: 1365.98px) {
+      align-self: flex-start;
+      text-align: right;
+    }
+
+    @media (min-width: 1366px) {
+      align-self: flex-start;
+      text-align: right;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1365.98px) {
+    flex-flow: row nowrap;
+  }
+
+  @media (min-width: 1366px) {
+    flex-flow: row nowrap;
+  }
+}

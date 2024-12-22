@@ -1,0 +1,41 @@
+.read-more-button {
+  display: none;
+  padding-left: 15px;
+  width: 160px;
+  height: 50px;
+  margin-left: 20px;
+  border: none;
+  background-color: transparent;
+
+  &--icon {
+    width: 20px;
+    height: 20px;
+    background: url(../img/ic/expand.svg) no-repeat 0 50%;
+    transition: transform 1200ms;
+  }
+
+  &--text {
+    font-family: 'TT Lakes', sans-serif;
+    white-space: nowrap;
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  @media (min-width: 768px) and (max-width: 1365.98px) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+  }
+
+  @media (min-width: 1366px) {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

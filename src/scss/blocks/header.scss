@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid $separator;
+  padding: 20px 15px;
+  background-color: $white;
+
+  &__logo {
+    min-width: 100px;
+    height: 52px;
+  }
+
+  &__design-element-1 {
+    background: url(/src/img/decor-elements/divider.svg) no-repeat 50% 50%;
+    width: 2px;
+    height: 40px;
+    display: none;
+  }
+
+  &__design-element-2 {
+    background: url(/src/img/decor-elements/divider.svg) no-repeat 50% 50%;
+    width: 2px;
+    height: 40px;
+    display: block;
+  }
+
+  @media (min-width: 768px) and (max-width: 1365.98px) {
+    &__design-element-1 {
+      display: block;
+    }
+  }
+}
+
+.header-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}

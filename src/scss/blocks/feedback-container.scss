@@ -1,0 +1,26 @@
+.feedback-container {
+  font-family: 'TT Lakes', sans-serif;
+  min-width: 320px;
+  max-width: 768px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: $white;
+  position: fixed;
+  right: -768px;
+  transition: right 1000ms;
+  z-index: 20;
+
+  @media (min-width: 768px) and (max-width: 1365.98px) {
+    width: 500px;
+    border-left: 2px solid $separator;
+    box-shadow: -3px 0 15px 0 $shadow;
+  }
+
+  @media (min-width: 1366px) {
+    width: 500px;
+    border-left: 2px solid $separator;
+    box-shadow: -3px 0 15px 0 $shadow;
+  }
+}

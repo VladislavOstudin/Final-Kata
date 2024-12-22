@@ -1,0 +1,42 @@
+.navigation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 100px;
+    background: linear-gradient(90deg, $background 20%, transparent 70%);
+    z-index: 2;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 100px;
+    background: linear-gradient(270deg, $background 20%, transparent 70%);
+    z-index: 2;
+  }
+
+  @media (min-width: 1366px) {
+    &::before {
+      content: '';
+      display: none;
+    }
+    &::after {
+      content: '';
+      display: none;
+    }
+  }
+}

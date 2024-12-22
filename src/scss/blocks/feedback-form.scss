@@ -1,0 +1,69 @@
+.feedback-form {
+  padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+
+  &__input {
+    font-family: inherit;
+    border: 1px solid $border-button;
+    border-radius: 8px;
+    height: 50px;
+    width: 100%;
+    font-size: 1em;
+    color: $black;
+    padding: 15px;
+  }
+
+  &__input::placeholder {
+    color: $placeholder;
+    font-size: 0.9em;
+  }
+
+  &__input--message {
+    padding: 15px;
+    height: 110px;
+  }
+
+  &__info {
+    font-size: 0.9em;
+    color: $gray-text;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  &__link {
+    color: $icon;
+
+    @media (min-width: 1366px) {
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  &__button {
+    width: 150px;
+    height: 38px;
+    padding-right: 30px;
+    padding-left: 10px;
+    background: $icon url(/src/img/ic/dropdown.svg) no-repeat 90% 50%;
+    border-radius: 19px;
+    align-self: flex-end;
+    font-family: inherit;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: $white;
+
+    @media (min-width: 1366px) {
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}

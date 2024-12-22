@@ -1,0 +1,244 @@
+.prices-list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 50px;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    gap: 10px;
+    width: 230px;
+    height: 170px;
+    padding: 10px;
+    background-color: $white;
+    border-radius: 7px;
+    position: relative;
+
+    @media (min-width: 768px) and (max-width: 1365.98px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: row nowrap;
+      gap: 0;
+      width: 95%;
+      height: 60px;
+      padding: 10px 0;
+      background-color: $white;
+      border-bottom: 1px solid $border-button;
+      border-radius: 0;
+    }
+
+    @media (min-width: 1366px) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: row nowrap;
+      gap: 0;
+      width: 95%;
+      height: 60px;
+      padding: 10px 0;
+      background-color: $white;
+      border-bottom: 1px solid $border-button;
+      border-radius: 0;
+    }
+
+    &:first-child {
+      @media (min-width: 768px) and (max-width: 1365.98px) {
+        border-bottom: none;
+        background-color: transparent;
+      }
+      @media (min-width: 1366px) {
+        border-bottom: none;
+        background-color: transparent;
+      }
+    }
+
+    &:nth-child(2) {
+      margin-left: 20px;
+      @media (min-width: 768px) and (max-width: 1365.98px) {
+        margin-left: 0;
+      }
+      @media (min-width: 1366px) {
+        margin-left: 0;
+      }
+    }
+
+    &:last-child {
+      margin-right: 20px;
+      @media (min-width: 768px) and (max-width: 1365.98px) {
+        border-bottom: none;
+        margin-right: 0;
+      }
+      @media (min-width: 1366px) {
+        border-bottom: none;
+        margin-right: 0;
+      }
+    }
+  }
+
+  &__header {
+    display: none;
+
+    @media (min-width: 768px) and (max-width: 1365.98px) {
+      display: flex;
+      position: absolute;
+      top: -60px;
+    }
+
+    @media (min-width: 1366px) {
+      display: flex;
+      position: absolute;
+      top: -60px;
+    }
+
+    &--text {
+      font-family: inherit;
+      font-size: 0.9em;
+      font-weight: 400;
+      color: $gray-text;
+
+      @media (min-width: 1366px) {
+        font-family: inherit;
+        font-size: 0.9em;
+        font-weight: 400;
+        color: $gray-text;
+      }
+    }
+  }
+
+  &__part {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    gap: 5px;
+
+    &--title-text {
+      font-family: 'TT Lakes', sans-serif;
+      font-size: 0.9em;
+      font-weight: 400;
+      white-space: wrap;
+      color: $gray-text;
+
+      @media (min-width: 768px) and (max-width: 1365.98px) {
+        display: none;
+      }
+
+      @media (min-width: 1366px) {
+        display: none;
+      }
+    }
+
+    &--text {
+      min-width: 90px;
+      font-family: 'TT Lakes', sans-serif;
+      font-size: 0.9em;
+      font-weight: 400;
+      white-space: wrap;
+      color: $black;
+
+      @media (min-width: 768px) and (max-width: 1365.98px) {
+        white-space: nowrap;
+      }
+
+      @media (min-width: 1366px) {
+        white-space: nowrap;
+      }
+    }
+    @media (min-width: 768px) and (max-width: 1365.98px) {
+      &:nth-child(1) {
+        width: 350px;
+      }
+
+      &:nth-child(2) {
+        width: 80px;
+        margin-left: 0;
+      }
+
+      &:nth-child(3) {
+        width: 80px;
+      }
+    }
+    @media (min-width: 1366px) {
+      &:nth-child(1) {
+        width: 350px;
+      }
+
+      &:nth-child(2) {
+        width: 80px;
+        margin-left: 0;
+      }
+
+      &:nth-child(3) {
+        width: 80px;
+      }
+    }
+  }
+
+  &__order {
+    width: 130px;
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+
+    @media (min-width: 768px) and (max-width: 1365.98px) {
+      position: static;
+    }
+
+    @media (min-width: 1366px) {
+      position: static;
+    }
+  }
+
+  &__button {
+    width: 130px;
+    height: 38px;
+    padding-right: 30px;
+    padding-left: 10px;
+    background: $icon url(/src/img/ic/dropdown.svg) no-repeat 90% 50%;
+    border-radius: 19px;
+    align-self: flex-end;
+    font-family: inherit;
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: $white;
+
+    @media (min-width: 1366px) {
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1365.98px) {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $white;
+    border-radius: 8px;
+    margin: 0 20px;
+    margin-top: 50px;
+    position: relative;
+    overflow: visible;
+  }
+
+  @media (min-width: 1366px) {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: $white;
+    border-radius: 8px;
+    margin: 0 20px;
+    margin-top: 50px;
+    position: relative;
+    overflow: visible;
+  }
+}

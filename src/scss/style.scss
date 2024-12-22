@@ -1,0 +1,40 @@
+@import './reset.scss';
+@import './colors.scss';
+
+@import url(/src/fonts/stylesheet.css);
+
+@import './blocks/mobile-menu-container.scss';
+@import './blocks/mobile-menu.scss';
+@import './blocks/mobile-menu-header.scss';
+@import './blocks/mobile-menu-header-part.scss';
+@import './blocks/mobile-menu-footer.scss';
+
+@import './blocks/feedback-container.scss';
+@import './blocks/feedback-form.scss';
+@import './blocks/feedback-header.scss';
+
+@import './blocks/icons.scss';
+@import './blocks/display-none.scss';
+@import './blocks/swiper.scss';
+
+@import './blocks/body.scss';
+@import './blocks/content-container.scss';
+@import './blocks/header-container.scss';
+@import './blocks/header.scss';
+@import './blocks/main-container.scss';
+@import './blocks/headline.scss';
+@import './blocks/navigation.scss';
+@import './blocks/buttons-navigation.scss';
+@import './blocks/item.scss';
+@import './blocks/item-button.scss';
+@import './blocks/brands-container.scss';
+@import './blocks/brands-slider.scss';
+@import './blocks/brands.scss';
+@import './blocks/read-more-button.scss';
+@import './blocks/services-container.scss';
+@import './blocks/services-slider.scss';
+@import './blocks/services.scss';
+@import './blocks/prices-container.scss';
+@import './blocks/prices-slider.scss';
+@import './blocks/prices-list.scss';
+@import './blocks/footer.scss';

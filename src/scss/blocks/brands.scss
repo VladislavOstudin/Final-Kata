@@ -1,0 +1,77 @@
+.brands {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 50px;
+
+  &__button {
+    max-width: 230px;
+    height: 70px;
+    padding-left: 10px;
+    border: 2px solid $border-button;
+    border-radius: 7px;
+    background: $white url(../img/ic/go.svg) no-repeat 90% 50%;
+
+    & img {
+      display: block;
+      max-width: 180px;
+      max-height: 40px;
+      object-fit: cover;
+      object-position: left center;
+      z-index: 3;
+    }
+
+    &:first-child {
+      margin-left: 20px;
+
+      @media (min-width: 768px) and (max-width: 1365.98px) {
+        margin-left: 0;
+      }
+
+      @media (min-width: 1366px) {
+        margin-left: 0;
+      }
+    }
+
+    &:last-child {
+      margin-right: 20px;
+
+      @media (min-width: 768px) and (max-width: 1365.98px) {
+        margin-right: 0;
+      }
+
+      @media (min-width: 1366px) {
+        margin-right: 0;
+      }
+    }
+
+    @media (min-width: 1366px) {
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1365.98px) {
+    flex-flow: row wrap;
+    column-gap: 20px;
+    row-gap: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    transition: max-height 1200ms, height 1200ms;
+    max-height: 162px;
+    overflow: hidden;
+  }
+
+  @media (min-width: 1366px) {
+    flex-flow: row wrap;
+    column-gap: 20px;
+    row-gap: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    transition: max-height 1200ms, height 1200ms;
+    max-height: 162px;
+    overflow: hidden;
+  }
+}

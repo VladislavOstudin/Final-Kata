@@ -1,0 +1,61 @@
+.prices-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+  margin-bottom: 10px;
+
+  &--title {
+    max-height: 80px;
+    text-transform: uppercase;
+    color: $gray-text;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 10px 20px;
+    border-top: 2px solid $separator;
+    background: linear-gradient(90deg, $background 0, $white 100%);
+  }
+
+  &__disclaimer {
+    max-width: 470px;
+    font-family: 'TT Lakes', sans-serif;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.3em;
+    white-space: wrap;
+    color: $black;
+    padding: 5px 20px;
+
+    @media (min-width: 768px) and (max-width: 1365.98px) {
+      margin-top: 20px;
+    }
+    @media (min-width: 1366px) {
+      margin-top: 20px;
+    }
+  }
+
+  &__commertal {
+    font-family: 'TT Lakes', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.3em;
+    white-space: wrap;
+    color: $black;
+    padding: 5px 20px;
+
+    &--icon {
+      display: inline-block;
+      vertical-align: middle;
+      width: 17px;
+      height: 17px;
+      background: url(../img/ic/Line.svg) no-repeat 50% 50%;
+    }
+
+    @media (min-width: 1366px) {
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
