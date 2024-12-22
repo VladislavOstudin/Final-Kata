@@ -210,7 +210,7 @@ nav {
                 filter: none; }
       .mobile-menu__menu-item--active::before {
         content: '';
-        background: url(/src/img/decor-elements/highlight.svg) no-repeat 0 50%;
+        background: url(./static/highlight.svg) no-repeat 0 50%;
         width: 4px;
         height: 40px;
         position: absolute;
@@ -351,7 +351,7 @@ nav {
     height: 38px;
     padding-right: 30px;
     padding-left: 10px;
-    background: #ff3e79 url(/src/img/ic/dropdown.svg) no-repeat 90% 50%;
+    background: #ff3e79 url(./static/dropdown.svg) no-repeat 90% 50%;
     border-radius: 19px;
     align-self: flex-end;
     font-family: inherit;
@@ -376,7 +376,7 @@ nav {
     font-size: 1.6em;
     font-weight: 700; }
   .feedback-header__design-element {
-    background: url(/src/img/decor-elements/highlight.svg) no-repeat 0 50%;
+    background: url(./static/highlight.svg) no-repeat 0 50%;
     width: 4px;
     height: 40px; }
   @media (min-width: 768px) and (max-width: 1365.98px) {
@@ -392,35 +392,35 @@ nav {
   border: none;
   transition: transform 600ms; }
   .icon--burger {
-    background: url(/src/img/ic/burger.svg) no-repeat 50% 50%; }
+    background: url(./static/burger.svg) no-repeat 50% 50%; }
   .icon--close-burger {
-    background: url(/src/img/ic/close-burger.svg) no-repeat 50% 50%; }
+    background: url(./static/close-burger.svg) no-repeat 50% 50%; }
   .icon--close {
-    background: url(/src/img/ic/close-burger.svg) no-repeat 50% 50%;
+    background: url(./static/close-burger.svg) no-repeat 50% 50%;
     position: relative;
     left: 20px;
     top: 25px; }
   .icon--call {
-    background: url(/src/img/ic/call.svg) no-repeat 50% 50%;
+    background: url(./static/call.svg) no-repeat 50% 50%;
     display: none; }
   .icon--call-menu {
-    background: url(/src/img/ic/call.svg) no-repeat 50% 50%; }
+    background: url(./static/call.svg) no-repeat 50% 50%; }
   .icon--chat {
-    background: url(/src/img/ic/chat.svg) no-repeat 50% 50%;
+    background: url(./static/chat.svg) no-repeat 50% 50%;
     display: none; }
   .icon--chat-menu {
-    background: url(/src/img/ic/chat.svg) no-repeat 50% 50%; }
+    background: url(./static/chat.svg) no-repeat 50% 50%; }
   .icon--profile {
-    background: url(/src/img/ic/profile.svg) no-repeat 50% 50%;
+    background: url(./static/profile.svg) no-repeat 50% 50%;
     display: none; }
   .icon--profile-menu {
-    background: url(/src/img/ic/profile.svg) no-repeat 50% 50%; }
+    background: url(./static/profile.svg) no-repeat 50% 50%; }
   .icon--repair {
-    background: url(/src/img/ic/repair.svg) no-repeat 50% 50%; }
+    background: url(./static/repair.svg) no-repeat 50% 50%; }
   .icon--checkstatus {
-    background: url(/src/img/ic/checkstatus.svg) no-repeat 50% 50%; }
+    background: url(./static/checkstatus.svg) no-repeat 50% 50%; }
   .icon--search-menu {
-    background: url(/src/img/ic/search.svg) no-repeat 50% 50%; }
+    background: url(./static/search.svg) no-repeat 50% 50%; }
   @media (min-width: 768px) and (max-width: 1365.98px) {
     .icon--call {
       display: block; }
@@ -436,9 +436,9 @@ nav {
     .icon:hover {
       opacity: 0.5; }
     .icon--repair {
-      background: url(/src/img/ic/repair.svg) no-repeat 50% 50%; }
+      background: url(./static/repair.svg) no-repeat 50% 50%; }
     .icon--checkstatus {
-      background: url(/src/img/ic/checkstatus.svg) no-repeat 50% 50%; }
+      background: url(./static/checkstatus.svg) no-repeat 50% 50%; }
     .icon--close-burger {
       display: none; }
     .icon--close {
@@ -550,12 +550,12 @@ body {
     min-width: 100px;
     height: 52px; }
   .header__design-element-1 {
-    background: url(/src/img/decor-elements/divider.svg) no-repeat 50% 50%;
+    background: url(./static/divider.svg) no-repeat 50% 50%;
     width: 2px;
     height: 40px;
     display: none; }
   .header__design-element-2 {
-    background: url(/src/img/decor-elements/divider.svg) no-repeat 50% 50%;
+    background: url(./static/divider.svg) no-repeat 50% 50%;
     width: 2px;
     height: 40px;
     display: block; }
@@ -580,7 +580,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px; }
   .headline__design-element {
-    background: url(/src/img/decor-elements/highlight.svg) no-repeat 0 50%;
+    background: url(./static/highlight.svg) no-repeat 0 50%;
     width: 4px;
     height: 40px; }
   .headline__title {
@@ -1257,7 +1257,7 @@ body {
     height: 38px;
     padding-right: 30px;
     padding-left: 10px;
-    background: #ff3e79 url(/src/img/ic/dropdown.svg) no-repeat 90% 50%;
+    background: #ff3e79 url(./static/dropdown.svg) no-repeat 90% 50%;
     border-radius: 19px;
     align-self: flex-end;
     font-family: inherit;
